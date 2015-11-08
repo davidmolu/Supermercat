@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		38E1D1AA1BEF9C9B00EFF93E /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1D1A91BEF9C9B00EFF93E /* main.cpp */; };
+		38E1D1B21BEF9CD700EFF93E /* Supermetcat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38E1D1B01BEF9CD700EFF93E /* Supermetcat.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		38E1D1A61BEF9C9B00EFF93E /* Supermercat */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Supermercat; sourceTree = BUILT_PRODUCTS_DIR; };
 		38E1D1A91BEF9C9B00EFF93E /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		38E1D1B01BEF9CD700EFF93E /* Supermetcat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Supermetcat.cpp; sourceTree = "<group>"; };
+		38E1D1B11BEF9CD700EFF93E /* Supermetcat.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Supermetcat.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				38E1D1A91BEF9C9B00EFF93E /* main.cpp */,
+				38E1D1B01BEF9CD700EFF93E /* Supermetcat.cpp */,
+				38E1D1B11BEF9CD700EFF93E /* Supermetcat.hpp */,
 			);
 			path = Supermercat;
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				38E1D1AA1BEF9C9B00EFF93E /* main.cpp in Sources */,
+				38E1D1B21BEF9CD700EFF93E /* Supermetcat.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
