@@ -6,10 +6,13 @@
 #define SUPERMERCAT_CLIENT_H
 
 #include "Ticket.h"
+#include <list>
+#include "ProducteComprat.h"
 
 class Client {
 private:
     Ticket ticket;
+    list<ProducteComprat> productes;
 public:
 };
 
