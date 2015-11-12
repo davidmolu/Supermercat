@@ -28,6 +28,8 @@ public:
     void addProducte(Producte prod);
 
     Client getLastClient();
+    
+    caixa assignarCaixaClient(Client c)
 };
 
 
