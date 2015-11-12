@@ -3,3 +3,12 @@
 //
 
 #include "Client.h"
+
+Client::Client(){
+    Ticket t = Ticket();
+    this->ticket = t;
+}
+
+Client::Client(Ticket t){
+    this->ticket = t;
+}

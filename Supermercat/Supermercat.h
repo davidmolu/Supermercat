@@ -18,6 +18,7 @@ private:
     vector<Producte> productes;
     vector<Client> clients;
 public:
+    Supermercat();
     Supermercat(int rengles, int columnes, int caixes);
 
     void addCaixa(Caixa caixa);
@@ -25,6 +26,8 @@ public:
     void addClient(Client cliente);
 
     void addProducte(Producte prod);
+
+    Client getLastClient();
 };
 
 

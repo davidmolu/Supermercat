@@ -3,11 +3,13 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Supermercat/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Caixa.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Caixa.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Supermercat/CamiPreferent.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Supermercat/CamiPreferent.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Client.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Client.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Supermercat/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Producte.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/Producte.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Supermercat/ProducteComprat.cpp" isTestSource="false" />

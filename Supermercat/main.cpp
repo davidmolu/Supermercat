@@ -4,27 +4,29 @@
 using namespace std;
 
 
-void llegirEstructuraSupermercat();
-void llegirProductes();
+void llegirEstructuraSupermercat(Supermercat &supermercat);
+void llegirProductes(Supermercat &supermercat);
 
 int main() {
 
-    llegirEstructuraSupermercat();
-    llegirProductes();
+    Supermercat supermercat;
+
+    llegirEstructuraSupermercat(supermercat);
+    llegirProductes(supermercat);
     return 0;
 }
 
-void llegirEstructuraSupermercat(){
+void llegirEstructuraSupermercat(Supermercat &supermercat){
     int rengles, columnes, caixes = -1;
 
     while (rengles < 0 || columnes < 0 || caixes < 0){//han de ser positius.
         cin >> rengles >> columnes >> caixes;
     }
 
-    Supermercat supermercat = Supermercat(rengles, columnes, caixes);
+    supermercat = Supermercat(rengles, columnes, caixes);
 }
 
-void llegirProductes(){
+void llegirProductes(Supermercat &supermercat){
     int num_prods = -1;
     while( 0 > num_prods ){//el nombre de productes ha de ser positiu.
         cin >> num_prods;
@@ -33,9 +35,11 @@ void llegirProductes(){
     string prod;
     double preu;
     string seccio;
-    int temps_cobrament;
+    int temps_cobrament;//ha de ser >= 0. CANVIAR.
 
     while (num_prods != 0){
-
+        cin >> prod >> preu >> seccio >> temps_cobrament;
+        Producte prod = Producte(preu, seccio, temps_cobrament);
+        supermercat.addProducte(prod);
     }
 }

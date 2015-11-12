@@ -7,7 +7,7 @@
 
 
 class Ticket {
-
+    int numero;
 };
 
 

@@ -14,6 +14,8 @@ private:
     Ticket ticket;
     list<ProducteComprat> productes;
 public:
+    Client();
+    Client(Ticket t);
 };
 
 

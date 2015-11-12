@@ -7,8 +7,7 @@
 Producte::Producte(){
 
 }
-
-Producte::Producte(double preu, string seccio, int t_cobrament) {
+Producte::Producte(double preu, char seccio[], int t_cobrament) {
     this->preu = preu;
     this->seccio = seccio;
     this->temps_cobrament = t_cobrament;
